@@ -1,4 +1,4 @@
 requests
 playsound
 datetime
-json
+jsonlib-python3
