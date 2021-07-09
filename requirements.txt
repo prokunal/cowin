@@ -1,5 +1,4 @@
 requests
 playsound
 datetime
-sys
 json
