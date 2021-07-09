@@ -64,7 +64,7 @@ def notify(pincode,date):
                     else:
                         pass
             if len(stock) == 0:
-                print("slot not available for {}".format(sys.argv[3]))
+                print("SLOT NOT AVAILABLE FOR {}+".format(sys.argv[3]))
             else:
                 for i in stock:
                     if i == 0:
@@ -72,5 +72,5 @@ def notify(pincode,date):
                     else:
                         return message()
         else:
-            print("SLOT NOT AVAILABLE")
+            print("SLOT NOT AVAILABLE FOR {}+".format(sys.argv[3]))
 notify(pincode,date)
